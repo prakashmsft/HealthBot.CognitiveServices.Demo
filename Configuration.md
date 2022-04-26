@@ -45,21 +45,21 @@ Now, you should be familiar with the Health Bot. You should be able to create cu
 
 - Login to [Azure Portal](https://portal.azure.com)
 
-- Create a **New** resource.
+- Create a **New** resource.  
   ![Language Service Resource](./media/image002.png)
 
-- Select **Language Service** resource.
+- Select **Language Service** resource.  
   ![Language Service Resource](./media/image003.png)
 
-- Select *Language Service* features as desired. For demo, select all.
+- Select *Language Service* features as desired. For demo, select all.  
   ![Additional Features](./media/image004.png)
 
-- Supply required subscription, resource group, region, pricing details and name for your resource. For demo, Free tier is sufficient.
+- Supply required subscription, resource group, region, pricing details and name for your resource. For demo, Free tier is sufficient.  
   ![Create TextAnalytics](./media/image005.png)
 
 - You can supply additional details in **Network**, **Identity** and **Tags** screen if needed.
 
-- Before you click on **Review + create**, you need to accept Microsoft's Responsible AI terms and conditions. Click [Microsoft Responsible AI principles in practice](https://www.microsoft.com/ai/responsible-ai) for more details. You can also review service agreements on the **Review + create** page.
+- Before you click on **Review + create**, you need to accept Microsoft's Responsible AI terms and conditions. Click [Microsoft Responsible AI principles in practice](https://www.microsoft.com/ai/responsible-ai) for more details. You can also review service agreements on the **Review + create** page.  
   ![Review + create](./media/image006.png)
 
 ### Language Service TextAnalytics Configurations
@@ -68,7 +68,7 @@ Now, let's save a couple of the key settings we'll need for our demo. They are
 
   - [Subscription Key](https://docs.microsoft.com/azure/cognitive-services/authentication?tabs=powershell#authenticate-with-a-single-service-subscription-key): We will use this option to authenticate API calls. For production choose sophisticated authentications like AAD or equivalent authentication mechanism.
   
-  - Endpoint url: The service url for making API call.
+  - Endpoint url: The service url for making API call.  
   
   ![Review + create](./media/image007.png)
   
